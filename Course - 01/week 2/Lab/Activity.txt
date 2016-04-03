@@ -1,0 +1,7 @@
+1.a.
+1.b.
+ActivityOne -> onCreate -> onStart -> onResume -> onPause -> onStop
+ActivityTwo -> onCreate -> onStart -> onResume
+1.c.
+ActivityTwo -> onPause -> onStop -> onDestroy
+ActivityOne -> onRestart -> onStart -> onResume

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:baselineAligned="false"
+    tools:context="br.com.psmorandi.moma.app.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/left_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/left_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/left_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_toEndOf="@id/left"
+        android:layout_toRightOf="@id/left"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/right_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/colorSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_dark"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="1" />
+
+</RelativeLayout>

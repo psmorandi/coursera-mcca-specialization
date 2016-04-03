@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cousera Daily Selfie</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="delete_all">Delete All</string>
+    <string name="selfie_image">Image Preview</string>
+
+</resources>

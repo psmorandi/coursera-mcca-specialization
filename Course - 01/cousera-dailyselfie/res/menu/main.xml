@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.psmorandi.cousera.dailyselfie.MainActivity" >
+
+    <item
+        android:id="@+id/take_picture"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/take_picture"/>
+    
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/delete_all"/>
+
+</menu>
